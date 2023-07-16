@@ -1,0 +1,22 @@
+{
+  "name": "project_dan_tan_tan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass assets/sass/app.scss -o dist/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "jquery": "^3.7.0",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
