@@ -24,6 +24,6 @@ function taskOwner($id){
         if($utid['id'] === intVal($id)){
             return true;
         }
+        return false;
     }
-    return false;
 }
